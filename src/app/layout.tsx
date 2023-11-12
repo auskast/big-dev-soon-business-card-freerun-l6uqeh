@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={clsx(
-          "bg-green-100",
+          "bg-background body",
           poppinsRegular.className,
           poppinsRegular.variable,
           poppinsSemibold.variable,

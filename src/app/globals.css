@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heading-lg {
+    @apply font-semibold text-[46px] tracking-[2px] uppercase;
+  }
+
+  .heading-sm {
+    @apply font-semibold text-[19px];
+  }
+
+  .body {
+    @apply font-normal text-base;
+  }
+
+  .body-2 {
+    @apply font-semibold text-base;
+  }
+}
