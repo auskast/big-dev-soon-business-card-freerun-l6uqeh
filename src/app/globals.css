@@ -4,11 +4,11 @@
 
 @layer components {
   .heading-lg {
-    @apply font-semibold text-[46px] tracking-[2px] uppercase;
+    @apply font-semibold text-[46px] leading-[1.2] tracking-[2px] uppercase;
   }
 
   .heading-sm {
-    @apply font-semibold text-[19px];
+    @apply font-semibold text-[19px] leading-[1.6];
   }
 
   .body {
