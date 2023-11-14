@@ -62,7 +62,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build with Next.js
         env:
-          BASE_PATH: ${{ steps.pages-setup.outputs.base_url }}
+          BASE_PATH: ${{ steps.pages-setup.outputs.base_path }}
         run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
