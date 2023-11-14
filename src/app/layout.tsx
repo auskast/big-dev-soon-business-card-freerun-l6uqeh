@@ -5,7 +5,6 @@ import * as React from "react";
 
 import clsx from "clsx";
 
-import { BDS } from "@/components/BDS";
 import { Footer } from "@/components/Footer";
 
 import "./globals.css";
@@ -23,6 +22,9 @@ const poppinsSemibold = Poppins({
 
 export const metadata: Metadata = {
   title: "BigDevSoon - Business Card Project",
+  other: {
+    bds: "<bds />",
+  },
 };
 
 export default function RootLayout({
@@ -43,7 +45,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <BDS />
+      {/* <BDS /> */}
     </html>
   );
 }
