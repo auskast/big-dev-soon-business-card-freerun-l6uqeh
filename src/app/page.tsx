@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { Shapes } from "@/components/Shapes";
 import { UserContact } from "@/components/UserContact";
 import { UserImage } from "@/components/UserImage";
 import { UserInfo } from "@/components/UserInfo";
@@ -25,6 +26,7 @@ export default function Home() {
           description="High accomplishment and user-focused Front-end Developer adept in collaborating with UX and design teams to plan the technical writing and execution of functional specifications for websites and applications."
           technologies={["JavaScript", "React", "Node.js", "GraphQL"]}
         />
+        <Shapes />
       </Container>
     </main>
   );
