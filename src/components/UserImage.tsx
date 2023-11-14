@@ -11,7 +11,7 @@ const UserImage = ({ alt, className, ...props }: UserImageProps) => {
     <Image
       alt={alt}
       className={clsx(
-        "absolute top-[40px] left-[273px] w-[340px] h-[549px] object-cover",
+        "absolute top-[40px] left-[273px] w-[340px] h-[549px] z-10 object-cover",
         className,
       )}
       {...props}
