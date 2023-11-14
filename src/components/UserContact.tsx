@@ -135,7 +135,7 @@ const SocialLink = ({ icon: Icon, baseUrl, username }: SocialLinkProps) => (
     <Icon
       width={24}
       height={24}
-      className="fill-white-60 hover:fill-white-87"
+      className="fill-white-60 hover:fill-white-87 transition-colors"
     />
   </a>
 );
