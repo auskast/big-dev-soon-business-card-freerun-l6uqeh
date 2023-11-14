@@ -40,7 +40,9 @@ const UserInfo = ({
     <ul className="list-disc list-inside flex flex-col gap-3">
       {technologies.map((tech) => (
         <li key={tech} className="ml-2">
-          {tech}
+          <span className="hover:text-green-800 transition-colors cursor-default">
+            {tech}
+          </span>
         </li>
       ))}
     </ul>
